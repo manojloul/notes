@@ -4,53 +4,7 @@
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
-<nav><div class="intro1">
-    <img src="Student Self Help Desk_Logo.png" height="50px" width="50px">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Welcome to MANIT Student Self Help Desk&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    <div id="clock">8:10:45</div>
-    <script>
-        setInterval(showTime, 1000);
-        function showTime() {
-            let time = new Date();
-            let hour = time.getHours();
-            let min = time.getMinutes();
-            let sec = time.getSeconds();
-            am_pm = "AM";
-  
-            if (hour > 12) {
-                hour -= 12;
-                am_pm = "PM";
-            }
-            if (hour == 0) {
-                hr = 12;
-                am_pm = "AM";
-            }
-  
-            hour = hour < 10 ? "0" + hour : hour;
-            min = min < 10 ? "0" + min : min;
-            sec = sec < 10 ? "0" + sec : sec;
-  
-            let currentTime = hour + ":" 
-                + min + ":" + sec + am_pm;
-  
-            document.getElementById("clock")
-                .innerHTML = currentTime;
-        }
-  
-        showTime();
-    </script>
-    </div></nav>
-<nav><div class="intro2">
 
-        <a href="HomePage.html" target="_parent" >Home</a>
-        <a href="Books.html" target="_parent">Books</a>
-        <a href="Notes.html" target="_parent">Notes</a>
-        <a href="Teachers.html" target="_parent">Teachers</a>
-        <a href="TypingTest.html" target="_parent">TYPO</a>
-        <a href="Practice.html" target="_parent">Practice</a>
-        <a href="Quiz.html" target="_parent">Quiz</a>
-        <a href="Documents.html" target="_parent">Docs</a>
-    </div>
-    </nav>
 <div class="books">
 <div class="notes_odd">
     <h1>SEMESTER 1</h1>
@@ -196,6 +150,6 @@
     </ol>
 </div>
 </div>   
-    <footer><b>Copyright@MANIT Self Help Desk<br/>Mr. Manoj Loul-202120027<br/>Mr. Abishekh Jha-202120042<br/>Ms. Pari Jain-202120124</b></footer>
+ 
 </body>
 </html>
