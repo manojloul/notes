@@ -1,0 +1,201 @@
+<html>
+<head>
+    <title>Notes</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+<nav><div class="intro1">
+    <img src="Student Self Help Desk_Logo.png" height="50px" width="50px">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Welcome to MANIT Student Self Help Desk&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <div id="clock">8:10:45</div>
+    <script>
+        setInterval(showTime, 1000);
+        function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+  
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+  
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+  
+            let currentTime = hour + ":" 
+                + min + ":" + sec + am_pm;
+  
+            document.getElementById("clock")
+                .innerHTML = currentTime;
+        }
+  
+        showTime();
+    </script>
+    </div></nav>
+<nav><div class="intro2">
+
+        <a href="HomePage.html" target="_parent" >Home</a>
+        <a href="Books.html" target="_parent">Books</a>
+        <a href="Notes.html" target="_parent">Notes</a>
+        <a href="Teachers.html" target="_parent">Teachers</a>
+        <a href="TypingTest.html" target="_parent">TYPO</a>
+        <a href="Practice.html" target="_parent">Practice</a>
+        <a href="Quiz.html" target="_parent">Quiz</a>
+        <a href="Documents.html" target="_parent">Docs</a>
+    </div>
+    </nav>
+<div class="books">
+<div class="notes_odd">
+    <h1>SEMESTER 1</h1>
+    <ol>
+        <li>Discrete Mathematics-101</li> 
+        <ul>
+            <li><a href="MathClassnotesII.pdf" target="_blank">By Dr. Manoj Jha</a></li>
+            <li><a href="MathClassnotesII.pdf" target="_blank">By Dr. Madhvi Shakya</a></li>
+        </ul>
+        <li>Computer Architecture-102</li>
+        <ul>
+            <li><a href="SW_classNotes_AC.pdf" target="_blank">By Mr.Anoop Tiwari</a></li>
+        </ul>
+        <li>Data Structure-103</li> 
+        <ul>
+            <li><a href="DBMS.pdf" target="_blank">By Dr. Amit Bhagat</a></li>
+        </ul>
+        <li>Operating System-104</li>
+        <ul>
+            <li><a href="Rumbaugh_Methodology.pdf" target="_blank">By Dr. Vishnu Priya</a></li>
+        </ul>
+        <li>C Programming-105</li> 
+        <ul>
+            <li><a href="Computer%20Network%20AC%20Sir.pdf" target="_blank">By Mr. Anirban Choudhary</a></li>
+        </ul>
+        <li>Bussiness Communication-106</li>
+        <ul>
+            <li><a href="python-language.pdf" target="_blank">By Dr. Anjali Jain</a></li>
+        </ul>
+    </ol>
+</div>
+<div class="notes_even">
+    <h1>SEMESTER 2</h1>
+    <ol>
+        <li>Linear Algebra-201</li> 
+        <ul>
+            <li><a href="MathClassnotesII.pdf" target="_blank">By Dr. Manoj Jha</a></li>
+        </ul>
+        <li>Software Engineering-202</li>
+        <ul>
+            <li><a href="SW_classNotes_AC.pdf" target="_blank">By Mr. Anirban Choudhary</a></li>
+        </ul>
+        <li>Computer Networks-203</li> 
+        <ul>
+            <li><a href="Computer%20Network%20AC%20Sir.pdf" target="_blank">By Mr. Anirban Choudhary</a></li>
+        </ul>
+        <li>Database Management System-204</li>
+        <ul>
+            <li><a href="DBMS.pdf" target="_blank">By Dr. Sujoy Das</a></li>
+            <li><a href="DBMS.pdf" target="_blank">By Dr. Amit Bhagat</a></li>
+        </ul>
+        <li>Object Oriented Design Using UML-205</li> 
+        <ul>
+            <li><a href="Rumbaugh_Methodology.pdf" target="_blank">By Dr. Vishnu Priya</a></li>
+        </ul>
+        <li>Python Programming-206</li>
+        <ul>
+            <li><a href="python-language.pdf" target="_blank">By Dr. Ghanshyam Singh Thakur</a></li>
+        </ul>
+    </ol>
+</div>
+<div class="notes_odd">
+    <h1>SEMESTER 3</h1>
+    <ol>
+        <li>Probability and Applied Statistics-301</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Software Architecture-302</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Analysis and design Algorithm of Algorithm-303</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Application Development using JAVA-304</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Entreprise Resource Planning and Supply Chain-305</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Development and Operational tools-306</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+    </ol>
+</div>
+<div class="notes_even">
+    <h1>SEMESTER 4</h1>
+    <ol>
+        <li>Optimization Methods for Analytics-401</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Data Warehousing and Data Mining-402</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Artificial Intelligence and Neural Network-403</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Service Management-404</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Data Science-405</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Elective-I</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+    </ol>
+</div>
+<div class="notes_odd">
+    <h1>SEMESTER 5</h1>
+    <ol>
+        <li>Cloud Computing and Virtualization-501</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Machine Learning-502</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Big Data and Analytics-503</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Elective-II</li>
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+        <li>Elective-III</li> 
+        <ul>
+            <li><a href="" target="_blank">N/A</a></li>
+        </ul>
+    </ol>
+</div>
+</div>   
+    <footer><b>Copyright@MANIT Self Help Desk<br/>Mr. Manoj Loul-202120027<br/>Mr. Abishekh Jha-202120042<br/>Ms. Pari Jain-202120124</b></footer>
+</body>
+</html>
